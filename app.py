@@ -2,10 +2,10 @@ import requests, webbrowser, ctypes, urllib.request
 from PIL import Image
 
 # Path for the image
-path = "C:/Users/spenc/OneDrive/Desktop/Coding/Python/BackgroundChanger/unsplash.jpg"
+path = "YourPath/unsplash.jpg"
 
 # Access Key for Unsplash API
-KEY = "e4ac487b825cd5353dc1425b133157b1d56793e436124f4cca58e704ac96629e"
+KEY = "Your key"
 
 # Call API/jsonify data
 response = requests.get("https://api.unsplash.com/photos/random/?client_id=" + KEY).json()
