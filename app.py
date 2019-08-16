@@ -1,5 +1,4 @@
 import requests, ctypes, urllib.request 
-from PIL import Image
 from unsplash import Unsplash
 
 # Path for the image
