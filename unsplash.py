@@ -1,4 +1,4 @@
-import requests, urllib, random
+import requests, random
 
 class Unsplash:
 
