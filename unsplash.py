@@ -24,10 +24,3 @@ class Unsplash:
 		random_image = random.randint(0, 5)
 		response = requests.get("https://api.unsplash.com/search/photos/?page=1&query=" + collection + "&client_id=" + self.KEY).json()
 		return response["results"][random_image]["urls"]["full"]
-
-def main():
-	u = Unsplash()
-	random_image = u.get_random_image()
-
-if __name__ == '__main__':
-	main()
