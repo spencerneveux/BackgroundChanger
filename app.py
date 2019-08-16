@@ -8,10 +8,12 @@ path = "YourPath/unsplash.jpg"
 # Instantiate Unsplash Object
 u = Unsplash()
 
-# Photo
+# Photo url
 photo = ""
 
-# Method to change the desktop image
+# -------------------
+# Change Background
+# -------------------
 def change_desktop(photo):
 	# save image locally 
 	urllib.request.urlretrieve(photo, "unsplash.jpg")
