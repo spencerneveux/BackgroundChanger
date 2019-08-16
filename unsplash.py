@@ -3,8 +3,8 @@ import requests, urllib, random
 class Unsplash:
 
 	def __init__(self):
-		self.path = "C:/Users/spenc/OneDrive/Desktop/Coding/Python/BackgroundChanger/unsplash.jpg"
-		self.KEY = "e4ac487b825cd5353dc1425b133157b1d56793e436124f4cca58e704ac96629e"
+		self.path = "YourPath/unsplash.jpg"
+		self.KEY = "YourKey"
 
 	def get_random_image(self):
 		response = requests.get("https://api.unsplash.com/photos/random/?client_id=" + self.KEY).json()
